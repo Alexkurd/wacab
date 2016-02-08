@@ -2,7 +2,7 @@
 
 class wacabConfig extends waAppConfig{
     public function onCount(){
-
+        return;
         $settings_model = new waAppSettingsModel();
         $settings = $settings_model->get('wacab');
 
